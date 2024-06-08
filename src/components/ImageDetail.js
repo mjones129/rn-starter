@@ -1,8 +1,8 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
 
-const ImageDetail = () => {
-  return <Text>Show Image Of Forest</Text>
+const ImageDetail = (props) => {
+  return <Text>{props.title}</Text>
 }
 
 const styles = StyleSheet.create({});
